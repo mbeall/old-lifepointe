@@ -30,7 +30,7 @@ function create_sermon_types()
     'show_in_menu'       => true,
     'query_var'          => true,
     'menu_icon'          => 'dashicons-rss',
-    'capability_type'    => 'sermon',
+    'capability_type'    => 'post',
     'has_archive'        => true,
     'rewrite'            => array('slug' => 'series'),
     'hierarchical'       => false,
